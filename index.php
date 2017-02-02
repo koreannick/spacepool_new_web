@@ -215,6 +215,7 @@ require $_SERVER["DOCUMENT_ROOT"]."/count.php";
         </div>
 
     </section>
+      <img src="/images/temp/event.jpg" width="100%" alt="">
 
 
     <footer>
