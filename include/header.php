@@ -58,13 +58,13 @@ $naver = new Naver();
                   <a href="#" class="h_search_btn">검색</a>
               </li>
               <li>
-                  <a href="member/space_apply.php" class="h_space_regi">공간등록하기</a>
+                  <a href="member/space_apply.php">공간등록하기</a>
               </li>
               <li>
                 <?
                 if($USESSION[0]){
                 ?>
-                <a href="/member/member.php?mode=logout_ok" class="h_logout_btn">로그아웃</a>
+                <a href="/member/member.php?mode=logout_ok">로그아웃</a>
                 <?
                 }else{
                   $top_login = true;
@@ -73,6 +73,11 @@ $naver = new Naver();
                   unset($top_login);
                 }
                 ?>
+              </li>
+              <li>
+                <a href="#" class="h_all_menu_btn">
+                  <img src="/images/common/menu.png">
+                </a>
               </li>
           </ul>
       </div>

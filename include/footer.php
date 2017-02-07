@@ -81,8 +81,9 @@
 					<span>고객센터 운영시간 : 10시 00분 ~ 17시 00분 까지</span><br>
 					(토,일, 공휴일 휴무입니다. 점심 12시 ~ 13시까지)
 				</div>
-				<div class="footer_copy color_fix">
+				<div class="footer_copy"><font colot="#FAD0CE">
 					스페이스풀은 회원이 자발적으로 등록한 게시물과 거래에 대하여 관여하지 않으며 책임을 지지 않습니다.
+					</font>
 				</div>
 				<div class="footer_copy">
 					Copyright ⓒ 2016 SpacePool. All right Reserved. Designed by Gautech.

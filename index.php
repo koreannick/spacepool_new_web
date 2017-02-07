@@ -19,6 +19,11 @@ require $_SERVER["DOCUMENT_ROOT"]."/count.php";
     // require "popup_layer.php";
   ?>
     <style>
+
+    .border5{
+     border-style:groove;
+     border-width:2px;
+    }
     headerintext {
         margin: 0;
         padding: 0;
@@ -70,15 +75,20 @@ require $_SERVER["DOCUMENT_ROOT"]."/count.php";
     <!-- 여기서부터 추천 Space 나열 -->
     <section id="portfolio">
         <div class="container">
+
+
             <div class="row">
                 <div class="col-lg-12 text-left">
+                    <?require "include/search2.php";?>
+                    <br>
+                    <br>
                     <h2 >추천 공간</h2>
                 </div>
             </div>
             <div class="row">
 
               <?
-								$result = mysql_query("Select uid,bimg,img1,img2,img3,subject,addr1,addr2,gubun,price From es_product where status='ok' and main='Y' Order By rand() limit 0,16");
+								$result = mysql_query("Select uid,bimg,img1,img2,img3,subject,addr1,addr2,gubun,price From es_product where status='ok' and main='Y' Order By rand() limit 0,8");
 								if($result&&mysql_num_rows($result)>0){
 									while($r=mysql_fetch_array($result)){
 										foreach($r as $key=>$val){
@@ -167,7 +177,7 @@ require $_SERVER["DOCUMENT_ROOT"]."/count.php";
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">SpacePool의 Review</h2>
+                    <h2 class="section-heading">SpacePool의 Review<br></h2>
                 </div>
             </div>
             <div class="row">
