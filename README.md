@@ -1,4 +1,4 @@
-# [SpacePool_New_Web](http://www.spacepool/test/index.php)
+# [SpacePool_New_Web](http://www.spacepool.co.kr/test/index.php)
 
 SpacePool의 웹페이지 디자인 변경 작업 내용입니다.
 
